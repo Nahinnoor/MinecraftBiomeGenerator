@@ -1,14 +1,13 @@
 package cs.project.biomegenerator.presentation;
-import javax.swing.*;
 
-public class MainWindow {
-    private JFrame mainFrame;
+public class MainWindow extends UIComponents {
 
-    public MainWindow() {
-
+    public MainWindow(){
+        super();
+        mainFrame.pack();
+        mainFrame.setVisible(true);
+        mainFrame.setVisible(true);
     }
 
-    public static void main(String[] args) {
 
-    }
 }
