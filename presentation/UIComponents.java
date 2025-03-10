@@ -6,34 +6,106 @@ import java.awt.event.ActionEvent;
 
 public class UIComponents {
     protected JFrame mainFrame;
-    protected JSpinner biomeTemperatureSpinner;
-    protected JPanel paramPanel;
-    protected JSpinner biomeDownFallSpinner;
-    protected JCheckBox biomePrecipitationCheckbox;
-    protected JSpinner CreatureSpawnProbabilitySpinner;
-    protected JPanel biomeEffectsPanel;
-    protected JSpinner skyColorSpinner;
-    protected JSpinner fogColorSpinner;
-    protected JSpinner waterColorSpinner;
-    protected JSpinner waterFogColorSpinner;
-    protected JSpinner grassColorSpinner;
-    protected JSpinner foliageColorSpinner;
-    protected JPanel spawnerPanel;
-    protected JComboBox MonsterTypeComboBox;
-    protected JPanel temperaturePanel;
-    protected JPanel downfallPanel;
-    protected JPanel precipitationPanel;
-    protected JPanel creatureSpawnPanel;
-    protected JPanel carversPanel;
-    protected JSpinner monsterWeightSpinner;
-    protected JSpinner monsterMinCountSpinner;
-    protected JSpinner monsterMaxCountSpinner;
-    protected JPanel creatureSpawnCostPanel;
-    protected JSpinner energyCostSpinner;
-    protected JSpinner ChargeCostSpinner;
-    protected JComboBox carversComboBox;
+    private JSpinner biomeTemperatureSpinner;
+    private JPanel paramPanel;
+    private JSpinner biomeDownFallSpinner;
+    private JCheckBox biomePrecipitationCheckbox;
+    private JSpinner CreatureSpawnProbabilitySpinner;
+    private JPanel biomeEffectsPanel;
+    private JSpinner skyColorSpinner;
+    private JSpinner fogColorSpinner;
+    private JSpinner waterColorSpinner;
+    private JSpinner waterFogColorSpinner;
+    private JSpinner grassColorSpinner;
+    private JSpinner foliageColorSpinner;
+    private JPanel spawnerPanel;
+    private JComboBox MonsterTypeComboBox;
+    private JPanel temperaturePanel;
+    private JPanel downfallPanel;
+    private JPanel precipitationPanel;
+    private JPanel creatureSpawnPanel;
+    private JPanel carversPanel;
+    private JSpinner monsterWeightSpinner;
+    private JSpinner monsterMinCountSpinner;
+    private JSpinner monsterMaxCountSpinner;
+    private JPanel creatureSpawnCostPanel;
+    private JSpinner energyCostSpinner;
+    private JSpinner ChargeCostSpinner;
+    private JComboBox carversComboBox;
     private JButton saveButton;
 
+
+    public JSpinner getBiomeTemperatureSpinner() {
+        return biomeTemperatureSpinner;
+    }
+
+    public JSpinner getBiomeDownfallSpinner() {
+        return biomeDownFallSpinner;
+    }
+
+    public JCheckBox getBiomePrecipitationCheckbox() {
+        return biomePrecipitationCheckbox;
+    }
+
+    public JSpinner getCreatureSpawnProbabilitySpinner() {
+        return CreatureSpawnProbabilitySpinner;
+    }
+
+    public JSpinner getSkyColorSpinner() {
+        return skyColorSpinner;
+    }
+
+    public JSpinner getFogColorSpinner() {
+        return fogColorSpinner;
+    }
+
+    public JSpinner getWaterColorSpinner() {
+        return waterColorSpinner;
+    }
+
+    public JSpinner getWaterFogColorSpinner() {
+        return waterFogColorSpinner;
+    }
+
+    public JSpinner getGrassColorSpinner() {
+        return grassColorSpinner;
+    }
+
+    public JSpinner getFoliageColorSpinner() {
+        return foliageColorSpinner;
+    }
+
+    public JComboBox getMonsterTypeComboBox() {
+        return MonsterTypeComboBox;
+    }
+
+    public JSpinner getMonsterWeightSpinner() {
+        return monsterWeightSpinner;
+    }
+
+    public JSpinner getMonsterMinCountSpinner() {
+        return monsterMinCountSpinner;
+    }
+
+    public JSpinner getMonsterMaxCountSpinner() {
+        return monsterMaxCountSpinner;
+    }
+
+    public JSpinner getEnergyCostSpinner() {
+        return energyCostSpinner;
+    }
+
+    public JSpinner getChargeCostSpinner() {
+        return ChargeCostSpinner;
+    }
+
+    public JComboBox getCarversComboBox() {
+        return carversComboBox;
+    }
+
+    public JButton getSaveButton() {
+        return saveButton;
+    }
 
     public UIComponents() {
         createUIComponents();
