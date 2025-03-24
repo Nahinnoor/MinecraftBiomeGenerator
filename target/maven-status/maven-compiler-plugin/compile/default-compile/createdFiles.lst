@@ -1,0 +1,6 @@
+com\datapack\service\DataPackGenerator.class
+com\datapack\model\DataPack.class
+com\datapack\DataPackApplication.class
+com\datapack\Main.class
+com\datapack\controller\DataPackController.class
+com\datapack\model\BiomeSettings.class
